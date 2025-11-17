@@ -1,6 +1,14 @@
 # Overview
 
-This is an example Node.js package which can be downloaded and executed by a single `npx` command.  It is designed to read JSON from STDIN, and output JSON to STDOUT, as part of a bare-bones simple xyOps Event Plugin.  Example invocation with test data piped in:
+This is an example Node.js package which can be downloaded and executed by a single `npx` command.  It is designed to read JSON from STDIN, and output JSON to STDOUT, as part of a bare-bones simple xyOps Event Plugin.  
+
+Here is the Plugin command for this package:
+
+```sh
+npx -y github:pixlcore/xyplug-sample-npx#v1.0.0
+```
+
+Here is an example invocation with some test data piped in:
 
 ```sh
 echo '{"xy":1,"test":[2,3]}' | npx -y github:pixlcore/xyplug-sample-npx#v1.0.0
