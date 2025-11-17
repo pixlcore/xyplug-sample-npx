@@ -1,6 +1,6 @@
 {
 	"name": "xyplug-sample-npx",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "A simple NPX example Plugin for the xyOps workflow automation system.",
 	"author": "Joseph Huckaby <jhuckaby@pixlcore.com>",
 	"homepage": "https://github.com/pixlcore/xyplug-sample-npx",
@@ -19,5 +19,7 @@
 		"sample",
 		"plugin"
 	],
-	"dependencies": {}
+	"dependencies": {
+		"pixl-tools": "^1.1.14"
+	}
 }

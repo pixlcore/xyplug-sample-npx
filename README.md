@@ -5,13 +5,13 @@ This is an example Node.js package which can be downloaded and executed by a sin
 Here is the Plugin command for this package:
 
 ```sh
-npx -y github:pixlcore/xyplug-sample-npx#v1.0.0
+npx -y github:pixlcore/xyplug-sample-npx#v1.0.1
 ```
 
 Here is an example invocation with some test data piped in:
 
 ```sh
-echo '{"xy":1,"test":[2,3]}' | npx -y github:pixlcore/xyplug-sample-npx#v1.0.0
+echo '{"xy":1,"test":[2,3]}' | npx -y github:pixlcore/xyplug-sample-npx#v1.0.1
 ```
 
 Expected output:
@@ -36,9 +36,9 @@ Read JSON from STDIN:
 - Make sure you have a properly-formatted `package.json` file at the root of your repo.
 	- It should have a `bin` property that points at your `index.js` file.
 - Make sure your `index.js` file has a [Shebang](https://en.wikipedia.org/wiki/Shebang_%28Unix%29) line at the top.
-- Tag the repo to match the version in `package.json` (currently `1.0.0`):
+- Tag the repo to match the version in `package.json` (currently `1.0.1`):
 
 ```sh
-git tag v1.0.0
-git push origin v1.0.0
+git tag v1.0.1
+git push origin v1.0.1
 ```
