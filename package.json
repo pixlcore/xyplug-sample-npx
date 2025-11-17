@@ -1,0 +1,23 @@
+{
+	"name": "xyplug-sample-npx",
+	"version": "1.0.0",
+	"description": "A simple NPX example Plugin for the xyOps workflow automation system.",
+	"author": "Joseph Huckaby <jhuckaby@pixlcore.com>",
+	"homepage": "https://github.com/pixlcore/xyplug-sample-npx",
+	"license": "MIT",
+	"main": "index.js",
+	"bin": "index.js",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/pixlcore/xyplug-sample-npx"
+	},
+	"bugs": {
+		"url": "https://github.com/pixlcore/xyplug-sample-npx/issues"
+	},
+	"keywords": [
+		"xyops",
+		"sample",
+		"plugin"
+	],
+	"dependencies": {}
+}
